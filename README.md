@@ -1,4 +1,4 @@
-# Data Introduction In English #
+# Fine-grained Entity Typing without Knowledge Base #
 
 This section describes the data format of Pseudo Data and the mapping relationship between Pseudo Data and FIGER dataset and OntoNotes dataset.
 
