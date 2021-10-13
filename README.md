@@ -5,7 +5,7 @@ This section describes the data format of Pseudo Data and how to map it to the f
 ## Pseudo Data ##
 
 ### Data Format ###
-The data format is as follows. key-"tokens" represents the input tokens of the data, and the original sentence can be obtained by splicing with spaces; key-"mentions" stores each mention and its label in the sentence, and each record contains the start and end position of the mention, and the corresponding label.
+The data format is as follows. 
 
 ```json
 {
@@ -17,6 +17,7 @@ The data format is as follows. key-"tokens" represents the input tokens of the d
     ... ...
 }
 ```
+key-"tokens" represents the input tokens of the data, and the original sentence can be obtained by splicing with spaces; key-"mentions" stores each mention and its label in the sentence, and each record contains the start and end position of the mention, and the corresponding label.
 
 ### Typing Ontology ###
 The type ontology in the pseudo data is from the TexSmart system and its definition can be found at 
