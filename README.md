@@ -3,6 +3,8 @@
 This project releases a pseudo dataset for fine-grained entity typing, which is obtained from unstructured data without any knowledge bases.
 For more details about this project, please see our paper [EMNLP 2021](https://2021.aclweb.org/).  
 
+
+
 ## Data Description ##
 
 ### Format ###
