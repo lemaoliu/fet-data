@@ -1,10 +1,11 @@
 # Fine-grained Entity Typing without Knowledge Base #
 
-This section describes the data format of Pseudo Data and how to map it to the format in FIGER or OntoNotes.
+This project releases a pseudo dataset for fine-grained entity typing, which is obtained from unstructured data without any knowledge bases.
+For more details about this project, please see our paper [EMNLP 2021](https://2021.aclweb.org/).  
 
-## Pseudo Data ##
+## Data Description ##
 
-### Data Format ###
+### Format ###
 The data format is as follows. 
 
 ```json
@@ -19,10 +20,10 @@ The data format is as follows.
 ```
 key-"tokens" represents the input tokens of the data, and the original sentence can be obtained by splicing with spaces; key-"mentions" stores each mention and its label in the sentence, and each record contains the start and end position of the mention, and the corresponding label.
 
-### Typing Ontology ###
-The type ontology in the pseudo data is from the TexSmart system and its definition can be found at 
+### Ontology ###
+The type ontology in the pseudo data is from the [TexSmart](https://texsmart.qq.com) system and its definition can be found at [ontology](https://ai.tencent.com/ailab/nlp/texsmart/download/texsmart-ont-0.3.0.tar.gz).
 
-## How to use ##
+## Usage ##
 To use the pseudo data for a specific typing task such as FIGER or OntoNotes, one has to map the types in the pseudo data to the types from the specific ontology. 
 This can be achieved by the command as follows:
 
@@ -35,5 +36,16 @@ This can be achieved by the command as follows:
 - file3: mapping file. For the FIGER task, the mapping file is `mapping_figer.csv` and it is `mapping_onto.csv` for the OntoNotes task. For other tasks, one needs to manually define a similar csv file for ontology mapping. 
 
 
+
+## Citation ##
+If you use the data for research, please cite the following paper:
+```
+@article{jing2021fine,
+  title={Fine-grained Entity Typing without Knowledge Base},
+  author={Qian, Jing and Liu, Yibin and Liu, Lemao and Li, Yangming and Jiang, Haiyun and Zhang, Haisong and Shi, Shuming},
+  journal={Proceedings of EMNLP},
+  year={2021}
+}
+```
 
 
