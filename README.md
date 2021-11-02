@@ -37,7 +37,8 @@ This can be achieved by the command as follows:
 
 - file3: mapping file. For the FIGER task, the mapping file is `mapping_figer.csv` and it is `mapping_onto.csv` for the OntoNotes task. For other tasks, one needs to manually define a similar csv file for ontology mapping. 
 
-
+### About Test Sets ###
+The test datasets (for FIGER and OntoNotes) are not provided in this repo but available at [data](https://github.com/INK-USC/AFET/tree/master/Data).
 
 ## Citation ##
 If you use the data for research, please cite the following paper:
