@@ -23,7 +23,7 @@ The data format is as follows.
 key-"tokens" represents the input tokens of the data, and the original sentence can be obtained by splicing with spaces; key-"mentions" stores each mention and its label in the sentence, and each record contains the start and end position of the mention, and the corresponding label.
 
 ### Ontology ###
-The type ontology in the pseudo data is from the [TexSmart](https://texsmart.qq.com) system and its definition can be found at [ontology](https://ai.tencent.com/ailab/nlp/texsmart/download/texsmart-ont-0.3.0.tar.gz).
+The type ontology in the pseudo data is from the [TexSmart](https://texsmart.qq.com) system and its definition can be found from the file texsmart-ont-0.3.5.tar.gz in the repo.
 
 ## Usage ##
 To use the pseudo data for a specific typing task such as FIGER or OntoNotes, one has to map the types in the pseudo data to the types from the specific ontology. 
